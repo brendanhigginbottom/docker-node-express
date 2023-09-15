@@ -1,6 +1,7 @@
 # Version of Node that we want to use
 FROM node:18
 # Create app directory
+# related to app directory we want to use in our container
 WORKDIR /usr/app
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
